@@ -11,7 +11,7 @@ namespace NSass
 		return (char*) ((Marshal::StringToHGlobalAnsi (s)).ToPointer());
 	}
 
-	void FreeString(char* p)
+	void FreeString(const char* p)
 	{
 		if (p) Marshal::FreeHGlobal (IntPtr ((void *) p));
 	}

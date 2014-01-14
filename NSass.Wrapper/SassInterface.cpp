@@ -1,6 +1,6 @@
 #include <exception>
 #include "AssemblyInfo.hpp"
-#include "sass_interface.h"
+#include "libsass-core\sass_interface.h"
 #include "StringToANSI.hpp"
 #include "SassInterface.hpp"
 
